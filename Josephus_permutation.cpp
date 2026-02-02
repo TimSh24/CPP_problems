@@ -8,43 +8,7 @@
 #include <queue>
 
 using namespace std;
-/*template <typename RandomIt>
-void MakeJosephusPermutation_vector(RandomIt first, RandomIt last, uint32_t step_size) {
-    vector<typename RandomIt::value_type> pool;
-    pool.reserve(last - first);
-    for (RandomIt i = first; i < last; i++) {
-        pool.push_back(move(*i));
-    }
-    size_t cur_pos = 0;
-    while (!pool.empty()) {
-        *(first++) = move(pool[cur_pos]);
-        pool.erase(pool.begin() + cur_pos);
-        if (pool.empty()) {
-            break;
-        }
-        cur_pos = (cur_pos + step_size - 1) % pool.size();
-    }
-}
 
-template <typename RandomIt>
-void MakeJosephusPermutation_list(RandomIt first, RandomIt last, uint32_t step_size) {
-    list<typename RandomIt::value_type> pool;
-    for (RandomIt i = first; i < last; i++) {
-        pool.push_back(move(*i));
-    }
-    auto pool_it = pool.begin();
-    size_t cur_pos = 0;
-    while (!pool.empty()) {
-        *(first++) = move(*(pool_it));
-        pool.erase(pool_it);
-        if (pool.empty()) {
-            break;
-        }
-        cur_pos = (cur_pos + step_size - 1) % pool.size();
-        pool_it = pool.begin();
-        for (int i = 0; i < cur_pos; i++) pool_it++;
-    }
-}*/
 template <typename RandomIt>
 void MakeJosephusPermutation(RandomIt first, RandomIt last, uint32_t step_size) {
     queue<typename RandomIt::value_type> pool;
