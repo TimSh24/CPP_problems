@@ -7,10 +7,10 @@
 **Инструменты:** С++17, STL   
 **Навыки:** шаблоны классов, константные и неконстантные методы
 
-### 2. [Sentiment Analysis](https://github.com/TimSh24/Data_science_practicum_projects/blob/main/Sentiment_analysis/Sentiment_analysis.ipynb)
-Анализ тональности отзывов.  
-**Инструменты:** Python, nltk, Logistic Regression, BERT  
-**Навыки:** обработка текста, NLP, визуализация.
+### 2. [Hotel_booking](Hotel_booking.cpp)
+Система бронирования отелей
+**Инструменты:** С++17, STL   
+**Навыки:** ООП
 
 ### 3. [Well_location_selection](https://github.com/TimSh24/Data_science_practicum_projects/blob/main/Well_location_selection/Well_location_selection.ipynb)
 Выбор локации для скважины  
