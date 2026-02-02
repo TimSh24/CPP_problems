@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Реализуйте шаблон SimpleVector
 template <typename T>
 class SimpleVector {
 public:
@@ -18,6 +17,7 @@ public:
         size_ = size;
 
     };
+
     explicit SimpleVector(const SimpleVector<T>& other)
         : data(new T[other.capacity]),
         capacity(other.capacity) {
@@ -49,6 +49,7 @@ public:
     const T* begin() const {
         return data;
     };
+
     const T* end() const {
         return end_;
     };
@@ -56,9 +57,11 @@ public:
     size_t Size() const {
         return size_;
     };
+
     size_t Capacity() const {
         return capacity;
     };
+
     void PushBack(const T& value) {
         auto size = size_;
         if (size == capacity && size != 0) {
@@ -85,6 +88,7 @@ public:
         }
         size_++;
     };
+
     void  operator=(const SimpleVector<T>& other) {
         delete[] data;
         data = new T[other.capacity];
@@ -95,8 +99,9 @@ public:
     };
 
 private:
-    T* data;// Добавьте поля для хранения данных векторf
+    T* data;
     T* end_;
     size_t capacity;
     size_t size_;
 };
+
