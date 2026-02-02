@@ -29,8 +29,6 @@ public:
   Access operator[](const K& key) {
       size_t i = abs(int(key)) % Map.size();
       return {lock_guard(m[i]),Map[i][key]};
-      //return {Map[key % Map.size()][key], lock_guard(m[key % Map.size()])};
-      //return {Map[key], lock_guard(m)};
   }
 
   map<K, V> BuildOrdinaryMap() {
