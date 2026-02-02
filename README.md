@@ -23,6 +23,6 @@
 **Навыки:** шаблоны классов, move-семантика
 
 ### 5. [Explore_key_Words](ExploreKeyWords.cpp)
-Реализация функции Stats ExploreKeyWords(const set<string>& key_words, istream& input), выполняющей пдсчет слов из key_words во входном потоке   
+Реализация функции Stats ExploreKeyWords(const set<string>& key_words, istream& input), выполняющей подсчет слов из key_words во входном потоке   
 **Инструменты:** С++17, STL    
 **Навыки:** многопоточность  
