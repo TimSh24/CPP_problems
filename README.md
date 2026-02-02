@@ -23,6 +23,6 @@
 **Навыки:** шаблоны классов, move-семантика
 
 ### 5. [Explore_key_Words](ExploreKeyWords.cpp)
-Предсказание заказов такси  
-**Инструменты:** Python, pandas, time series  
-**Навыки:** time series prediction.
+Реализация функции Stats ExploreKeyWords(const set<string>& key_words, istream& input), выполняющей пдсчет слов из key_words во входном потоке 
+**Инструменты:** С++17, STL  
+**Навыки:** многопоточность
