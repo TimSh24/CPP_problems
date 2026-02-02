@@ -43,6 +43,6 @@
 функция CreateFigure, которая в зависимости от содержимого входного потока создаёт shared_ptr<Rect>, shared_ptr<Triangle> или shared_ptr<Circle>.      
 **Навыки:** полиморфизм
 
-### 6. [Cache](Cache.cpp)
+### 11. [Cache](Cache.cpp)
 Реализован LRU cache для электронной библиотеки      
 **Навыки:** shared_ptr, многопоточность  
