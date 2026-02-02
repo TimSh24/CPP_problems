@@ -2,7 +2,7 @@
 
 ## 🧠 Задачи
 
-### 1. [Simple_database](https://github.com/TimSh24/CPP_Belts/tree/main/Simple_database))
+### 1. [Simple_database](https://github.com/TimSh24/CPP_Belts/tree/main/Simple_database)
 Реализация простой базы данных 
 **Инструменты:** С++17, STL   
 **Навыки:** ООП, перегрузка операторов, обработка исключений
