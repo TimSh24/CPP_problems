@@ -15,9 +15,7 @@ public:
   LruCache(
       shared_ptr<IBooksUnpacker> books_unpacker,
       const Settings& settings
-  ): books_unpacker_(move(books_unpacker)),  settings_(move(settings))  {
-    // реализуйте метод
-  }
+  ): books_unpacker_(move(books_unpacker)),  settings_(move(settings))  {}
     LruCache(LruCache&& other) noexcept{
         bookname_rang = move(other.bookname_rang);
         rang_bookname = move(other.rang_bookname);
@@ -84,4 +82,5 @@ unique_ptr<ICache> MakeCache(
 ) {
   return make_unique<LruCache>(LruCache(move(books_unpacker), settings));
 }
+
 
