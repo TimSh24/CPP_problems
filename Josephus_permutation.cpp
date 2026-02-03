@@ -115,31 +115,6 @@ int main() {
     TestRunner tr;
     RUN_TEST(tr, TestIntVector);
     RUN_TEST(tr, TestAvoidsCopying);
-    /*auto size = 100000;
-    vector<int> a(size);
-    for (int i = 0 ; i < size; i++ ) {
-        a[i] = i;
-    }
-    LOG_DURATION("vector") {
-        MakeJosephusPermutation_vector(a.begin(), a.end(), 5);
-        cout << a[size/10] << endl;
-    }
-    vector<int> b(size);
-    for (int i = 0 ; i < size; i++ ) {
-        b[i] = i;
-    }
-    LOG_DURATION("list") {
-        MakeJosephusPermutation_list(b.begin(), b.end(), 5);
-        cout << b[size/10] << endl;
-    }
-    vector<int> c(size);
-    for (int i = 0 ; i < size; i++ ) {
-        c[i] = i;
-    }
-    LOG_DURATION("queue") {
-        MakeJosephusPermutation_queue(c.begin(), c.end(), 5);
-        cout << c[size/10] << endl;
-    }*/
     return 0;
 
 
