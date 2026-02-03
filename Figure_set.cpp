@@ -106,9 +106,6 @@ int main() {
         string command;
         is >> command;
         if (command == "ADD") {
-            // Пропускаем "лишние" ведущие пробелы.
-            // Подробнее об std::ws можно узнать здесь:
-            // https://en.cppreference.com/w/cpp/io/manip/ws
             is >> ws;
             figures.push_back(CreateFigure(is));
         } else if (command == "PRINT") {
