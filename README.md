@@ -1,10 +1,10 @@
 # Некоторые задачи и проекты из курса ""Искусство разрабтки на современном C++
 
-### 1. [Simple_database](https://github.com/TimSh24/CPP_Belts/tree/main/Simple_database)
+### 1. Проект [Simple_database](https://github.com/TimSh24/CPP_Belts/tree/main/Simple_database)
 Реализация простой базы данных      
 **Навыки:** ООП, перегрузка операторов, обработка исключений  
 
-### 2. [Search_Server](https://github.com/TimSh24/CPP_Belts/tree/main/Search_Server)  
+### 2. Проект [Search_Server](https://github.com/TimSh24/CPP_Belts/tree/main/Search_Server)  
 Реализация поисковой системы      
 **Навыки:** многопоточность  
 
